@@ -233,7 +233,6 @@ const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const navigate = useNavigate();
 
-  const dropdownRef = useRef(null);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -258,17 +257,6 @@ const Navbar = () => {
     setMobileDropdown(null);
   };
 
-  const toggleMobileDropdown = (dropdownName) => {
-    setMobileDropdown(mobileDropdown === dropdownName ? null : dropdownName);
-  };
-
-  const handleLinkClick = (e, path) => {
-    if (path !== '/#') {
-      e.preventDefault();
-      navigate(path);
-    }
-    closeMobileMenu();
-  };
 
   return (
     <nav className="bg-zinc-900 font-roboto w-full z-50" style={{ background: '#2b0318' }}>
