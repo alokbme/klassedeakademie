@@ -407,8 +407,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { GraduationCap, Briefcase, Globe, MessageCircle, BookOpen, Users, Award, ArrowRight, Star, CheckCircle } from 'lucide-react';
-import Testimonials from './Testimonials';
-import Footer from './Footer';
+
 
 export default function HomePage() {
   const [isVisible, setIsVisible] = useState(false);
