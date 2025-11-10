@@ -249,12 +249,12 @@ const Navbar = () => {
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
-    setMobileDropdown(null);
+    // setMobileDropdown(null);
   };
 
   const closeMobileMenu = () => {
     setIsMobileMenuOpen(false);
-    setMobileDropdown(null);
+    // setMobileDropdown(null);
   };
 
 
