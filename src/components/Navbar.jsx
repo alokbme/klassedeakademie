@@ -224,14 +224,14 @@
 // export default Navbar;
 
 
-
-import { Link, useNavigate } from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const [ setMobileDropdown] = useState(null);
-  const [isScrolled, setIsScrolled] = useState(false);
 
+  const [isScrolled, setIsScrolled] = useState(false);
+ 
 
 
   useEffect(() => {
