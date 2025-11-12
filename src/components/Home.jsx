@@ -415,21 +415,21 @@ export default function HomePage() {
 
   const testimonials = [
     {
-      name: "Sandesh Ramdasi",
+      name: "",
       location: "Freiburg University, Germany",
       image: "🎓",
       quote: "Thank you for helping me gain admission to a German university. Your excellent guidance made my dream come true.",
       gradient: "from-purple-500 to-pink-500",
     },
     {
-      name: "Ramesh Kumar",
+      name: "",
       location: "Mumbai",
       image: "🎯",
       quote: "C1 felt impossible before, but practical speaking drills and personalized attention made it achievable.",
       gradient: "from-violet-500 to-purple-500",
     },
     {
-      name: "Priya Sharma",
+      name: "",
       location: "Delhi",
       image: "🌟",
       quote: "I got admits in two German universities! The SOP guidance was exceptional.",
@@ -480,7 +480,7 @@ export default function HomePage() {
             {/* Left Content */}
             <div className={`space-y-8 z-10 transition-all duration-1000 transform ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
               <div className="inline-block animate-fade-in-down">
-                <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full text-sm mb-6 hover:bg-white/20 transition-all duration-300 cursor-pointer">
+                <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full text-lg font-bold mb-6 hover:bg-white/20 transition-all duration-300 cursor-pointer">
                   <Award className="w-4 h-4 animate-pulse" />
                   <span>Learn from experienced professionals from Germany</span>
                   <Star className="w-4 h-4 text-yellow-400 animate-spin-slow" />
@@ -489,7 +489,7 @@ export default function HomePage() {
               
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight animate-fade-in">
                 <span className="inline-block hover:scale-110 transition-transform duration-300">Your</span>{' '}
-                <span className="inline-block hover:scale-110 transition-transform duration-300 bg-gradient-to-r from-yellow-400 to-red-500 bg-clip-text text-transparent">Gateway</span>{' '}
+                <span className="inline-block hover:scale-110 transition-transform duration-300  ">Gateway</span>{' '}
                 <span className="inline-block hover:scale-110 transition-transform duration-300">to</span>{' '}
                 <span className="inline-block hover:scale-110 transition-transform duration-300">Germany</span>
               </h1>
@@ -499,14 +499,14 @@ export default function HomePage() {
               </p>
               
               <p className="text-lg md:text-xl text-gray-100 leading-relaxed animate-fade-in animation-delay-500">
-                We don't just teach German. We prepare you for life, study and work in Germany.
+                We don't just teach German. We prepare you for life, study and work globally.
               </p>
               
               <div className="pt-4 animate-fade-in animation-delay-700">
                 <button className="group relative bg-yellow-400 text-black px-8 py-4 rounded-full text-lg font-semibold hover:bg-yellow-500 transition-all duration-300 shadow-2xl hover:shadow-3xl overflow-hidden">
                   <span className="absolute inset-0 bg-gradient-to-r from-red-500 to-yellow-500 opacity-0 group-hover:opacity-30 transition-opacity duration-300"></span>
                   <span className="relative flex items-center gap-2 font-bold">
-                    Book Free Demo
+                    Contact Us
                     <ArrowRight className="w-5 h-5 group-hover:translate-x-2 transition-transform duration-300" />
                   </span>
                   <span className="absolute inset-0 border-2 border-yellow-500 rounded-full scale-0 group-hover:scale-100 transition-transform duration-500"></span>
@@ -603,8 +603,8 @@ export default function HomePage() {
             },
             {
               icon: Briefcase,
-              title: 'Career Services',
-              subtitle: 'Jobs in Germany',
+              title: 'Job Placement Services',
+              subtitle: 'Germany and across the Globe',
               color: 'from-red-500 to-red-700',
               delay: '200'
             },
@@ -618,7 +618,14 @@ export default function HomePage() {
             {
               icon: MessageCircle,
               title: 'Practical',
-              subtitle: 'Communication',
+              subtitle: 'Communication in English and other languages',
+              color: 'from-red-600 to-yellow-500',
+              delay: '600'
+            },
+             {
+              icon: MessageCircle,
+              title: 'Computer Aided Engineering (CAE) Training',
+              subtitle:'In our world class Digital Research Lab',
               color: 'from-red-600 to-yellow-500',
               delay: '600'
             }

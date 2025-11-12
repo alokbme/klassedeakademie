@@ -264,13 +264,13 @@ const Navbar = () => {
         <div className="flex items-center">
           <Link to="/" className="text-2xl font-bold text-zinc-200">
             <img
-              src=""
+              src="../../AcademyLogo3.png"
               alt="Logo"
-              className="h-16 w-28 md:h-24 md:w-36"
+              className="h-50 w-52 md:h-24 md:w-36"
             />
           </Link>
           <div className="ml-3 text-white">
-            <span className="text-xl md:text-2xl font-bold">klasse.de Akademie</span>
+            <span className="text-xl md:text-2xl font-bold">Klasse.de Akademie</span>
           </div>
         </div>
 
@@ -306,7 +306,7 @@ const Navbar = () => {
         </button>
 
         <div className="text-center text-white text-xl font-bold pt-5 mr-5 hidden md:block">
-          – Learn German <br />
+           Learn German <br />
           <span className="text-white text-sm font-semibold">Build Your Career. Explore Globe.</span>
         </div>
       </div>
