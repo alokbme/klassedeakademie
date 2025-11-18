@@ -259,7 +259,7 @@ const Navbar = () => {
 
 
   return (
-    <nav className="bg-zinc-900 font-roboto w-full z-50" style={{ background: '#2b0318' }}>
+    <nav className="bg-zinc-900 font-roboto w-full z-50" style={{ background: '#2b0318ff' }}>
       <div className="flex justify-between items-center h-20 px-4">
         <div className="flex items-center">
           <Link to="/" className="text-2xl font-bold text-zinc-200">
@@ -306,7 +306,7 @@ const Navbar = () => {
         </button>
 
         <div className="text-center text-white text-xl font-bold pt-5 mr-5 hidden md:block">
-           Learn German <br />
+           Learn with us <br />
           <span className="text-white text-sm font-semibold">Build Your Career. Explore Globe.</span>
         </div>
       </div>
