@@ -264,7 +264,7 @@ const Navbar = () => {
         <div className="flex items-center">
           <Link to="/" className="text-2xl font-bold text-zinc-200">
             <img
-              src="../../AcademyLogo3.png"
+              src="/AcademyLogo3.png"
               alt="Logo"
               className="h-50 w-52 md:h-24 md:w-36"
             />

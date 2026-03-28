@@ -406,7 +406,7 @@
 // }
 
 import React, { useState, useEffect } from 'react';
-import { GraduationCap, Briefcase, Globe, MessageCircle, BookOpen, Users, Award, ArrowRight, Star, CheckCircle } from 'lucide-react';
+import { GraduationCap, Briefcase, Globe, MessageCircle, BookOpen, Users, Award, ArrowRight, Star } from 'lucide-react';
 
 
 export default function HomePage() {

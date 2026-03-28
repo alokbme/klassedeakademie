@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="container mx-auto px-5 text-center">
         {/* Logo and College Name */}
         <div className="mb-4">
-          <img src="../../AcademyLogo3.png" alt=" Logo" className="h-40 mx-auto mb-0" />
+          <img src="/AcademyLogo3.png" alt=" Logo" className="h-40 mx-auto mb-0" />
           <h2 className="text-lg font-bold text-white">
             klasse.de Akademie
           </h2>
