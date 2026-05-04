@@ -55,9 +55,10 @@ const ContactUs = () => {
             <div className="space-y-4">
               <ContactInfoCard
                 icon="📧"
-                title="Email Us"
+                title="Email Us "
                 info="info@klassedeakademie.com"
                 gradient="from-blue-500 to-cyan-500"
+
               />
               <ContactInfoCard
                 icon="📱"
