@@ -50,7 +50,7 @@ const ContactUs = () => {
                 Have questions about our courses or services? We're here to help you achieve your German dream.
               </p>
             </div>
-
+{/* this is trial */}
             {/* Contact Info Cards */}
             <div className="space-y-4">
               <ContactInfoCard
